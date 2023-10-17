@@ -19,6 +19,7 @@
 		1F0452252ADF04100039AA28 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0452242ADF04100039AA28 /* HTTPDataDownloader.swift */; };
 		1F0452272ADF052F0039AA28 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0452262ADF052F0039AA28 /* QuakeClient.swift */; };
 		1F0452282ADF063B0039AA28 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04521D2ADDB6770039AA28 /* TestData.swift */; };
+		1F04522A2ADF06E30039AA28 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0452292ADF06E30039AA28 /* TestDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1F0452212ADE9A300039AA28 /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
 		1F0452242ADF04100039AA28 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 		1F0452262ADF052F0039AA28 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
+		1F0452292ADF06E30039AA28 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		1F0452002ADD7CAE0039AA28 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1F0452292ADF06E30039AA28 /* TestDownloader.swift */,
 				1F04521D2ADDB6770039AA28 /* TestData.swift */,
 				1F0452012ADD7CAE0039AA28 /* Preview Assets.xcassets */,
 			);
@@ -240,6 +243,7 @@
 				1F0452272ADF052F0039AA28 /* QuakeClient.swift in Sources */,
 				1F04520C2ADDB52C0039AA28 /* QuakeError.swift in Sources */,
 				1F0452222ADE9A300039AA28 /* QuakeLocation.swift in Sources */,
+				1F04522A2ADF06E30039AA28 /* TestDownloader.swift in Sources */,
 				1F0451FD2ADD7CAC0039AA28 /* ContentView.swift in Sources */,
 				1F04520A2ADDB4680039AA28 /* Quake.swift in Sources */,
 				1F0451FB2ADD7CAC0039AA28 /* EarthquakesApp.swift in Sources */,
