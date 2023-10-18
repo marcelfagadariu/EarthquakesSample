@@ -21,6 +21,14 @@ struct Quake: Identifiable, Decodable {
         case code
         case detail
     }
+    
+    internal init(magnitude: Double, place: String, time: Date, code: String, detail: URL) {
+        self.magnitude = magnitude
+        self.place = place
+        self.time = time
+        self.code = code
+        self.detail = detail
+    }
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
