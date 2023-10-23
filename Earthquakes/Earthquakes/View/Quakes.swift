@@ -78,5 +78,6 @@ extension Quakes {
 struct Quakes_Previews: PreviewProvider {
     static var previews: some View {
         Quakes()
+            .environmentObject(QuakesProvider(client: QuakeClient(downloader: TestDownloader())))
     }
 }
