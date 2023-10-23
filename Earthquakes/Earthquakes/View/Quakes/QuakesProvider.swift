@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class QuakesProvider: ObservableObject {
 
     // MARK: - Published
