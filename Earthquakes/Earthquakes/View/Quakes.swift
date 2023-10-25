@@ -62,6 +62,7 @@ extension Quakes {
         deleteQuakes(at: offsetsToDelete)
         selection.removeAll()
     }
+
     func fetchQuakes() async {
         isLoading = true
         do {
