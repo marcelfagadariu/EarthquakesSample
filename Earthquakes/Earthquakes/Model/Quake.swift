@@ -13,6 +13,7 @@ struct Quake: Identifiable, Decodable {
     let time: Date
     let code: String
     let detail: URL
+    var location: QuakeLocation?
 
     private enum CodingKeys: String, CodingKey {
         case magnitude = "mag"
